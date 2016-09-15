@@ -99,7 +99,7 @@ font-weight: 900;
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #FCAC45 !important;
+	color: #1E90FF !important;
 	background-color: transparent;
 	font-weight: 700;
 }
@@ -117,10 +117,10 @@ font-weight: 900;
 	}
 /* Home Style */
 #tf-home{
-	background: url(../img/01.jpg);
+	background: url(../img/penvssword.jpg);
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 	background-repeat: no-repeat;
 	color: #cfcfcf;
 }
@@ -146,7 +146,7 @@ font-weight: 900;
 }
 
 .color{
-	color: #fcac45;
+	color: #1E90FF;
 }
 
 a.fa.fa-angle-down {
@@ -336,6 +336,7 @@ img.img-circle.team-img {
 ==============================*/
 #tf-works{
 	padding: 80px 0;
+	background: #696969;
 }
 .categories{ 
 	padding: 10px 0;
@@ -345,6 +346,9 @@ ul.cat li{
 }
 #tf-works li.pull-right {
 	margin-top: 10px;
+}
+#tf-works .section-title {
+	color: #000000;
 }
 ol.type li{
 	display: inline-block;
